@@ -6,8 +6,6 @@ import ModalContextProvider from "./assets/context/ModalContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ModalContextProvider>
-      <App />
-    </ModalContextProvider>
+    <App />
   </React.StrictMode>
 );

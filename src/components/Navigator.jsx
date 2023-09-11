@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaArrowLeft } from "react-icons/fa";
+import './Navigator.css'
 
 export default function Navigator() {
   const [navState, setNavState] = useState(false);

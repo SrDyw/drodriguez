@@ -1,12 +1,12 @@
 import { IoLogoWhatsapp } from "react-icons/io";
+import { bussines_info } from "../models/constants";
 
 export default function Hero() {
   return (
     <section className="flex-center col hero" id="home">
-      <h1 className>D'Rodriguez</h1>
+      <h1>{bussines_info.name}</h1>
       <p>
-        Trabajos de reparación, modernización y acondicionamiento de pequeñas
-        edificaciones
+        {bussines_info.desc}
       </p>
       <a className="flex-center g-5">
         Contactar

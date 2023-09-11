@@ -12,9 +12,9 @@ export default function ServicesCard({ resumen, desc }) {
 
   return (
     <div
-      className={`service_card flex-center`}
+      className={`service_card `}
     >
-      <p>{resumen}</p>
+      <p style={{marginTop:"20px"}}>{resumen}</p>
       <span className="flex-center g-5" onClick={handleButton}>
         Ver mas
         <FaArrowRight />

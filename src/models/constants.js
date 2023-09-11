@@ -1,3 +1,8 @@
+export const bussines_info = {
+  name: "D'Rodriguez",
+  desc: "Trabajos de reparación, modernización y acondicionamiento de pequeñas edificaciones"
+}
+
 export const services = [
   {
     resumen: "Visita de reconocimiento, diagnostico y  propuesta preliminar",

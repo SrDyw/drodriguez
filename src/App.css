@@ -41,9 +41,9 @@ h1 {
 }
 
 .header_btn_more {
-  border: 2px solid #000;
+  border: 2px solid var(--text-body-color);;
   background-color: transparent;
-  color: #000;
+  color: var(--text-body-color);
 }
 
 .section-title {
@@ -62,56 +62,6 @@ footer {
 footer h2 {
   color: white;
 }
-
-.nav_body {
-  height: 100vw;
-  background-color: var(--main-color);
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transform: scale(0.75);
-  transition: 0.2s;
-  pointer-events: none;
-  border-radius: 50px;
-}
-
-.nav_active .nav_body {
-  opacity: 1;
-  transform: scale(1);
-  pointer-events: auto;
-  border-radius: 0;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li a {
-  background-color: transparent;
-  font-size: 2rem;
-}
-
-nav button {
-  outline: none;
-  border: none;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 1;
-  color: black;
-  font-size: 2rem;
-  padding: 5px;
-  background-color: transparent;
-  transition: 0.2s;
-}
-
-.nav_active button {
-  color: white;
-}
-
 
 
 @media (max-width: 500px) {
