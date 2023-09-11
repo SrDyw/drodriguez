@@ -12,6 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --main-color: #35a835;
 }
 
 body {
@@ -21,10 +23,24 @@ body {
   min-height: 100vh;
 }
 
+body::-webkit-scrollbar {
+  background-color: black;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
 * {
   margin:  0;
   padding: 0;
   box-sizing: border-box;
+  /* color: black; */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .flex-center {
@@ -65,6 +81,10 @@ body {
   gap: 20px;
 }
 
+.g-40 {
+  gap: 40px;
+}
+
 #root {
   position: relative;
   width: 100vw;
@@ -75,3 +95,26 @@ body {
   flex-direction: column;
 }
 
+section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+h1, h2, h3, h4, p{
+  color: black;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  box-shadow: 0 0 20px #00000033;
+}

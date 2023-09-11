@@ -1,14 +1,12 @@
 #app {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   gap: 5px;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
 }
 
-button {
+a {
   outline: none;
   border: none;
   color: white;
@@ -19,8 +17,8 @@ button {
   font-size: 1.2rem;
   background-color: #129a44;
   cursor: pointer;
+  text-decoration: none;
 }
-
 
 h1 {
   color: black;
@@ -38,13 +36,86 @@ h1 {
   line-height: 1.5rem;
 }
 
-.hero button {
+.hero a {
   margin-top: 20px;
 }
-
 
 .header_btn_more {
   border: 2px solid #000;
   background-color: transparent;
   color: #000;
+}
+
+.section-title {
+  text-align: center;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+.nav_body {
+  height: 100vw;
+  background-color: var(--main-color);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: scale(0.75);
+  transition: 0.2s;
+  pointer-events: none;
+  border-radius: 50px;
+}
+
+.nav_active .nav_body {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+  border-radius: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  background-color: transparent;
+  font-size: 2rem;
+}
+
+nav button {
+  outline: none;
+  border: none;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  color: black;
+  font-size: 2rem;
+  padding: 5px;
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.nav_active button {
+  color: white;
+}
+
+
+
+@media (max-width: 500px) {
+  #app {
+    scroll-snap-type: y mandatory;
+  }
 }
