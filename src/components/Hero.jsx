@@ -8,7 +8,7 @@ export default function Hero() {
       <p>
         {bussines_info.desc}
       </p>
-      <a className="flex-center g-5">
+      <a className="flex-center g-5" href="#contact">
         Contactar
         <span>
           <IoLogoWhatsapp className="icon"/>
