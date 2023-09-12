@@ -1,8 +1,43 @@
 #contact {
     position: relative;
+    min-height: 700px;
 }
 
 .contact_content {
-    background-color: red;
-    left: 0;
+    background-color:var(--body-color);
+    width: 350px;
+    height: 300px;
+
+    border-radius: 20px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 30px #00ff2fb1;
+    padding: 20px;
+
+    border-top: 2px solid #00d10070;
+    border-left: 2px solid #00d10070;
+}
+
+.contact_content p {
+    margin-top: 50px;
+    color: var(--main-color);
+    font-weight: bolder;
+
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.w_logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #00d100;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: 50px;
 }
