@@ -1,13 +1,15 @@
 import React, { useContext } from "react";
 import "./ServicesModalCard.css";
 import { ModalContext } from "../assets/context/ModalContext";
+import { GlobalContext } from "../assets/context/GlobalContext";
 
 export const ServiceCardModal = ({ resumen, desc }) => {
   const { cardModal, setCardModal } = useContext(ModalContext);
+  const { modalState ,setModalState } = useContext(GlobalContext);
   return (
     <div
       className={`card_modal flex-center ${
-        cardModal.open ? "modal_active" : ""
+        modalState.open ? "modal_active" : ""
       }`}
     >
       <div className="card_modal_container flex-center">
@@ -18,7 +20,7 @@ export const ServiceCardModal = ({ resumen, desc }) => {
           </div>
           <button
             className="button"
-            onClick={() => setCardModal((prev) => ({ ...prev, open: false }))}
+            onClick={() => setModalState((prev) => ({ ...prev, open: false }))}
           >
             Aceptar
           </button>
