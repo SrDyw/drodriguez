@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./ServicesModalCard.css";
-import { ModalContext } from "../assets/context/ModalContext";
-import { GlobalContext } from "../assets/context/GlobalContext";
+import { ModalContext } from "../../assets/context/ModalContext";
+import { GlobalContext } from '../../assets/context/GlobalContext'
 
 export const ServiceCardModal = ({ resumen, desc }) => {
   const { cardModal, setCardModal } = useContext(ModalContext);

@@ -1,13 +1,11 @@
 import "./App.css";
-import { IoLogoWhatsapp } from "react-icons/io";
 import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Footer from "./components/Footer";
-import Navigator from "./components/Navigator";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
+import Navigator from "./components/Navigator/Navigator";
 import ModalContextProvider from "./assets/context/ModalContext";
-import { useContext } from "react";
-import { ServiceCardModal } from "./components/ServiceCardModal";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +14,7 @@ function App() {
         <Hero />
         <Services />
         <About />
+        <Contact/>
         <Footer />
       </ModalContextProvider>
       <Navigator />

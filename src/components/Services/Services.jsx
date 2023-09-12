@@ -1,8 +1,8 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../SectionTitle";
 import "./Services.css";
 import ServicesCard from "./ServicesCard";
-import { services } from "../models/constants";
+import { services } from "../../models/constants";
 
 export default function Services() {
   return (

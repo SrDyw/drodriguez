@@ -3,7 +3,7 @@ export const bussines_info = {
   desc: "Trabajos de reparación, modernización y acondicionamiento de pequeñas edificaciones",
   about: [
     {
-      keyword: "Servicios",
+      title: "Servicios",
       desc: [
         {
           type:'normal',
@@ -12,27 +12,23 @@ export const bussines_info = {
       ],
     },
     {
-      keyword: "Experiencia",
+      title: "Experiencia",
       desc: [
         {
           type:'normal',
-          text: "Nuestra experiencia en el campo de la construcción nos respalda, y estamos comprometidos a brindar soluciones efectivas para mejorar la funcionalidad y estética de su propiedad. Si necesita asesoramiento para reparar, modernizar o acondicionar su hogar o negocio, no dude en ponerse en contacto con nosotros."
+          text: "Nuestra experiencia en el campo de la construcción nos respalda. Si necesita asesoramiento para reparar, modernizar o acondicionar su hogar o negocio, no dude en ponerse en contacto con nosotros."
         }
       ],
     },
-    {
-      keyword: "Contacto",
-      desc: [
-        {
-          type: "normal",
-          text: '"Con nuestros servicios, puede estar seguro de obtener calidad, ahorrar tiempo y optimizar su inversión."',
-        },
-        {
-          type: "normal",
-          text: "No dude en contactarnos a través de WhatsApp, bajo el nombre de D´Rodríguez, al número +53 52497742. Será un placer atenderle y ayudarle a convertir sus proyectos en realidad.",
-        },
-      ],
-    },
+    // {
+    //   title: "Contacto",
+    //   desc: [
+    //     {
+    //       type: "normal",
+    //       text: "No dude en contactarnos a través de WhatsApp, bajo el nombre de D´Rodríguez, al número +53 52497742. Será un placer atenderle y ayudarle a convertir sus proyectos en realidad.",
+    //     },
+    //   ],
+    // },
   ],
 };
 

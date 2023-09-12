@@ -37,6 +37,7 @@ export default function Navigator() {
         <NavLink sectionID={"#home"} title={"Home"} />
         <NavLink sectionID={"#services"} title={"Servicios"} />
         <NavLink sectionID={"#more"} title={"Conócenos"} />
+        <NavLink sectionID={"#contact"} title={"Contacto"} />
       </ul>
     </nav>
   );
