@@ -30,6 +30,25 @@
     line-height: normal;
 }
 
+.b_issues {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: normal;
+}
+
+.contacts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.b_issues .contact_number {
+    text-decoration: underline;
+}
+
 .w_logo {
     position: absolute;
     top: 0;

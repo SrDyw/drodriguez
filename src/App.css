@@ -64,6 +64,30 @@ footer h2 {
 }
 
 
+.cp_clip {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  line-height: normal;
+  background-color: #129a44;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 5px;
+  border-radius: 20px;
+  color: var(--text-main-color);
+  z-index: 100;
+  box-shadow: 0 0 20px #0000004c;
+  transition: 0.3s;
+}
+
+.cp_active {
+  top: 20px;
+
+}
+
+
 @media (max-width: 500px) {
   #app {
     scroll-snap-type: y mandatory;

@@ -1,6 +1,14 @@
 export const bussines_info = {
-  name: "D'Rodriguez",
+  name: "D'Rodríguez",
   desc: "Trabajos de reparación, modernización y acondicionamiento de pequeñas edificaciones",
+  contact_numbers: [
+    '52497742',
+    '58421532'
+  ],
+  country_code: {
+    phone: '+53',
+    country: 'cu'
+  },
   about: [
     {
       title: "Servicios",
@@ -25,7 +33,7 @@ export const bussines_info = {
     //   desc: [
     //     {
     //       type: "normal",
-    //       text: "No dude en contactarnos a través de WhatsApp, bajo el nombre de D´Rodríguez, al número +53 52497742. Será un placer atenderle y ayudarle a convertir sus proyectos en realidad.",
+    //       text: "No dude en contactarnos a través de WhatsApp, bajo el nombre de |n|, al número +53 52497742. Será un placer atenderle y ayudarle a convertir sus proyectos en realidad.",
     //     },
     //   ],
     // },
@@ -36,7 +44,7 @@ export const services = [
   {
     resumen: "Visita de reconocimiento, diagnostico y  propuesta preliminar",
     description:
-      "Es la primera visita a la obra. Solicitada por el cliente a través del WhatsApps de D´Rodriguez.",
+      "Es la primera visita a la obra. Solicitada por el cliente a través del WhatsApps de |n|.",
   },
   {
     resumen:
@@ -53,12 +61,17 @@ export const services = [
   {
     resumen: "Servicio de llave en mano para obras sencillas.",
     description:
-      "Es la solicitud de Llave en mano, para obras muy simples ó simples.  Se aplica cuando el Cliente decide contratar a D´Rodríguez la documentación técnica  de la obra y además, la ejecución de los trabajos.",
+      "Es la solicitud de Llave en mano, para obras muy simples ó simples.  Se aplica cuando el Cliente decide contratar a |n| la documentación técnica  de la obra y además, la ejecución de los trabajos.",
   },
   {
     resumen:
       "Servicio de llave en mano para obras complicadas o muy complicadas",
     description:
-      "Es la solicitud de Llave en mano, Para obras complicadas ó muy complicadas. Se aplica cuando el Cliente decide contratar a D´Rodríguez la documentación técnica  de la obra y además, la ejecución de todos los trabajos, incluyendo las posibles subcontrataciones que sean necesarias. (Este servicio no se ofertará hasta nuevo aviso).",
+      "Es la solicitud de Llave en mano, Para obras complicadas ó muy complicadas. Se aplica cuando el Cliente decide contratar a |n| la documentación técnica  de la obra y además, la ejecución de todos los trabajos, incluyendo las posibles subcontrataciones que sean necesarias. (Este servicio no se ofertará hasta nuevo aviso).",
   },
 ];
+
+
+export const bussines_texts = {
+  bottom_issues: 'Si el boton anterior no le funciona correctamente contacte manualmente al '
+} 

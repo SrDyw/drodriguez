@@ -1,11 +1,14 @@
 import React, { useContext } from "react";
 import "./ServicesModalCard.css";
 import { ModalContext } from "../../assets/context/ModalContext";
-import { GlobalContext } from '../../assets/context/GlobalContext'
+import { GlobalContext } from "../../assets/context/GlobalContext";
+import BussinesName from "../BussinesName";
 
 export const ServiceCardModal = ({ resumen, desc }) => {
   const { cardModal, setCardModal } = useContext(ModalContext);
-  const { modalState ,setModalState } = useContext(GlobalContext);
+  const { modalState, setModalState } = useContext(GlobalContext);
+
+
   return (
     <div
       className={`card_modal flex-center ${
@@ -16,7 +19,11 @@ export const ServiceCardModal = ({ resumen, desc }) => {
         <div className="card_modal_body">
           <h2>{resumen}</h2>
           <div className="card_desc">
-            <p>{desc}</p>
+            <p>
+              {desc.split("|").map((d, key) => (
+                <span key={key}>{d != "n" ? d : <BussinesName type={'span'}/>}</span>
+              ))}
+            </p>
           </div>
           <button
             className="button"
