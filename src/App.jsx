@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import { useContext } from "react";
 import { GlobalContext } from "./components/context/GlobalContext";
 import { STATES } from "./models/types";
+import Offers from "./components/Offers/Offers";
 
 function App() {
   const { copied } = useContext(GlobalContext);
@@ -19,6 +20,7 @@ function App() {
       <ModalContextProvider>
         <Hero />
         <Services />
+        <Offers/>
         <About />
         <Contact />
         <Footer />
