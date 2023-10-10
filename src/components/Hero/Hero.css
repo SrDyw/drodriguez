@@ -1,5 +1,40 @@
 #home {
-    background: linear-gradient(#ffffff6c, #ffffff), url('../../assets/page_background.jfif');
-    background-position: center;
-    background-repeat: no-repeat;
+  background: linear-gradient(#ffffff6c, #ffffff),
+    url("../../assets/page_background.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  line-height: 1.75rem;
+  color: var(--main-color-darker);
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.hero {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.hero a {
+  margin-top: 20px;
+}
+
+.header_btn_more {
+  border: 2px solid var(--text-body-color);
+  background-color: transparent;
+  color: var(--text-body-color);
+}
+
+
+.hero_buttons {
+    display: flex;
+    gap: 20px;
 }

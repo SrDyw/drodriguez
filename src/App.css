@@ -25,27 +25,6 @@ h1 {
   font-size: 3rem;
 }
 
-.hero {
-  color: black;
-  padding: 10px;
-  text-align: center;
-}
-
-.hero p {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-}
-
-.hero a {
-  margin-top: 20px;
-}
-
-.header_btn_more {
-  border: 2px solid var(--text-body-color);;
-  background-color: transparent;
-  color: var(--text-body-color);
-}
-
 .section-title {
   text-align: center;
   padding: 5px;

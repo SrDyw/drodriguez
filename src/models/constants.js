@@ -1,6 +1,7 @@
 export const bussines_info = {
   name: "D'Rodríguez",
-  desc: "Trabajos de reparación, modernización y acondicionamiento de pequeñas edificaciones",
+  desc: "Para guiar y monitorear sus reparaciones constructivas ",
+  complement_desc: "Le ofrecemos  lo que usted buscaba para ayudarlo a reparar, modificar su casa, ó negocio con ideas funcionales, novedosas y con la mayor calidad  en  las ejecuciones, pero sobre todo, sin costos adicionales ni excesivos.",
   contact_numbers: [
     '52497742',
     '58421532'
