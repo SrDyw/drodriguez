@@ -1,5 +1,6 @@
 import { IoLogoWhatsapp } from "react-icons/io";
-import { bussines_info } from "../models/constants";
+import { bussines_info } from "../../models/constants";
+import './Hero.css';
 
 export default function Hero() {
   return (

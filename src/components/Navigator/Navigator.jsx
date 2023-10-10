@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FaBars, FaArrowLeft } from "react-icons/fa";
 import "./Navigator.css";
-import { GlobalContext } from "../../assets/context/GlobalContext";
+import { GlobalContext } from "../context/GlobalContext";
 
 export default function Navigator() {
   const [navState, setNavState] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { ModalContext } from "../../assets/context/ModalContext";
-import { GlobalContext } from "../../assets/context/GlobalContext";
+import { GlobalContext } from "../context/GlobalContext";
+import { ModalContext } from "../context/ModalContext";
 
 export default function ServicesCard({ resumen, desc }) {
   // const [openCardModal, setOpenCardModal] = useState(false);

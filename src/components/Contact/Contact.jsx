@@ -9,7 +9,7 @@ import {
 } from "react-icons/io";
 import { copy_in_clipboard, open_whatsap } from "../../utils/utils";
 import { bussines_info, bussines_texts } from "../../models/constants";
-import { GlobalContext } from "../../assets/context/GlobalContext";
+import { GlobalContext } from "../context/GlobalContext";
 import { STATES } from "../../models/types";
 
 export default function Contact() {

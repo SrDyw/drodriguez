@@ -1,13 +1,13 @@
 import "./App.css";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import Navigator from "./components/Navigator/Navigator";
-import ModalContextProvider from "./assets/context/ModalContext";
+import ModalContextProvider from "./components/context/ModalContext";
 import Contact from "./components/Contact/Contact";
 import { useContext } from "react";
-import { GlobalContext } from "./assets/context/GlobalContext";
+import { GlobalContext } from "./components/context/GlobalContext";
 import { STATES } from "./models/types";
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { ServiceCardModal } from '../../components/Services/ServiceCardModal'
+import { ServiceCardModal } from '../Services/ServiceCardModal'
 import { GlobalContext } from "./GlobalContext";
 
 export const ModalContext = createContext();
