@@ -34,7 +34,7 @@ export default function Contact() {
             "No dude en contactarnos a través de WhatsApp, será un placer atenderle y ayudarle a convertir sus proyectos en realidad"
           }
         </p>
-        <button className="button" onClick={() => open_whatsap()}>
+        <button className="button" onClick={() => open_whatsap(bussines_info.contact_numbers[1])}>
           Contactar
         </button>
       </div>
