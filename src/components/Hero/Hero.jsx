@@ -15,9 +15,9 @@ export default function Hero() {
             <IoLogoWhatsapp className="icon" />
           </span>
         </a>
-        <a className="header_btn_more" href="#services">
+        {/* <a className="header_btn_more" href="#services">
           Servicios
-        </a>
+        </a> */}
       </div>
     </section>
   );

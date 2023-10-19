@@ -1,10 +1,27 @@
-.about_content {
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+#more {
+  min-height: auto;
 }
 
+.about_content {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about_desc {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: var(--main-color-light);
+  border: 3px solid var(--main-color);
+  border-radius: 10px;
+}
+
+.about_desc span {
+  font-weight: bold;
+}
+/*
 .about_card {
     background-color: var(--main-color);
     padding: 10px;
@@ -54,4 +71,4 @@
     background: var(--body-color);
     border-radius: 20px;
     transform: translateX(-25%);
-}
+} */

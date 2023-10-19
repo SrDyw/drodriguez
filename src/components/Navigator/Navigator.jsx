@@ -36,6 +36,7 @@ export default function Navigator() {
       <ul className="flex-center col g-40 nav_body">
         <NavLink sectionID={"#home"} title={"Home"} />
         <NavLink sectionID={"#services"} title={"Servicios"} />
+        <NavLink sectionID={"#offers"} title={"Ofertas"} />
         <NavLink sectionID={"#more"} title={"Conócenos"} />
         <NavLink sectionID={"#contact"} title={"Contacto"} />
       </ul>
