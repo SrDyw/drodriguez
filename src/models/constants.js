@@ -4,7 +4,7 @@ export const bussines_info = {
   complement_desc: "Le ofrecemos  lo que usted buscaba para ayudarlo a reparar, modificar su casa, ó negocio con ideas funcionales, novedosas y con la mayor calidad  en  las ejecuciones, pero sobre todo, sin costos adicionales ni excesivos.",
   contact_numbers: [
     '52497742',
-    '58421532'
+    '58421147'
   ],
   country_code: {
     phone: '+53',
